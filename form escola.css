@@ -1,0 +1,70 @@
+body {
+background-image: url(https://cdn.pixabay.com/photo/2016/04/25/18/53/cellular-1352613_1280.jpg);/* cor de fundo*/
+background-repeat: repeat;
+background-size: cover;
+
+
+}
+
+.container {
+    background-color: #34344e9d;
+    width: 380px;
+    height: 370px;
+    color: white;/*cor da letra da div*/
+    margin: 190px auto;/* primeira unidade ref. superior e inferior e auto para as laterais*/
+    text-align: center;/
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 7px 14px 23px black;
+    
+}
+
+.line {
+
+    width: 150px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.btn-enviar {
+
+    background-color: #89a7b1;
+    width: 230px;
+    height: 25px;
+    color: white;
+    font-size: 12 px;
+    border-radius: 7px;
+}
+
+.btn-enviar:hover {
+
+    background-color: #566981;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content button{
+
+    width: 100px;
+    height: 23px;
+    font-size: 10px;
+    color: white;
+    background-color: #89a7b1;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.content button:hover{
+
+    background-color: #566981;
+    transition: 0.6s;
+    cursor: pointer;
+}
