@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/interior-vazio-da-sala-de-aula-com-quadro-negro_1308-61229.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+
+    background-color: #34344e9d;
+    width: 380px;
+    height: 350px;
+    color: white;
+    margin:190px auto; 
+    text-align: center;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 7px 14px 23px black 
+}   
+.line {
+    width: 150px;
+    height: 50px;
+}
+ 
+h2 {
+    text-align: center;
+}
+.line {
+    width: 300px;
+    height: 0px;
+}
+
+input {
+
+    border-radius: 30px;
+}
+
+select {
+ border-radius: 30px;
+    
+}
+.formulario input:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+ 
